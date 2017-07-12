@@ -16,6 +16,7 @@ If you'd like to learn about the API, read the [API documentation](https://githu
 
 Chatcommand
 -----------
+Requires `gamemode` privilege.
 
 `/gamemode <mode>` - set own gamemode<br />
 `/gamemode <player name> <mode>` - set another player's gamemode<br />
