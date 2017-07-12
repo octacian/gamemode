@@ -1,5 +1,6 @@
 Per-player Gamemodes [gamemode]
 ===============================
+- Forums: https://forum.minetest.net/viewtopic.php?f=9&t=18070
 - GitHub: https://github.com/octacian/gamemode
 - Download: https://github.com/octacian/gamemode/archive/master.zip
 - Dependencies: sfinv (found in Minetest Game 0.4.15+)
