@@ -97,6 +97,7 @@ minetest.after(0, function()
 			end
 		end
 	end
+if minetest.global_exists("3d_armor") then  
 		sfinv.register_page("3d_armor:armor2", {
 		title = ("Armor"),
 		get = function(self, player, context)
@@ -110,6 +111,7 @@ minetest.after(0, function()
 			sfinv.set_player_inventory_formspec(player)
 		end
 	end)
+     end
 end)
 
 ---
