@@ -8,7 +8,7 @@
 gamemode.register("survival", {
 	caption = "Survival Mode",
 	aliases = {"s", "0"},
-	page_mods = {"sfinv"},
+	page_mods = {"sfinv", "3d_armor"},
   hand = {
 		full_punch_interval = 1.0,
 		max_drop_level = 0,
@@ -31,7 +31,7 @@ local caps = {times = {digtime, digtime, digtime}, uses = 0, maxlevel = 256}
 gamemode.register("creative", {
 	caption = "Creative Mode",
 	aliases = {"c", "1"},
-	page_mods = {"creative", "sfinv"},
+	page_mods = {"creative", "sfinv", "3d_armor"},
   stack_unlimited = true,
   item_drops = "auto",
   damage = false,
